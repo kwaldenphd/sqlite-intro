@@ -14,6 +14,20 @@ The author consulted the following resources when building this tutorial:
 
 # Table of Contents
 
+# Data
+
+Database_Lab_Data.xlsx
+
+Player_Birthplaces.csv
+
+Team_Locations.csv
+
+Combined_Transactions.csv
+
+Zip in the GitHub
+
+Google Drive link (ND users only) https://drive.google.com/drive/folders/1uzjZt4fxTa7qmAIfeTyKNtzT94rhZrf8?usp=sharing
+
 # What is SQLite
 
 SQL stands for Structured Query Language. 
