@@ -5,6 +5,15 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 
 ## Lab Goals
 
+This lab covers the basics of getting started with SQLite using DB Browser for SQLite. It provides an overview for SQLite and explains the core components of the DB Browser GUI interface. It uses a case-study approach to show how to build a relational database from CSV files in DB Browser, including setting keys and building table relationships.
+
+By the end of this lab, students will be able to:
+- Understand the core components of SQL and the DB Browser for SQLite
+- Have a working installation of DB Browser for SQLite on their personal computer
+- Understand how to load structured data into DB Browser
+- Understand how to set data types and key fields in DB Browser 
+- Understand how to export from DB Browser
+
 ## Acknowledgements
 
 The author consulted the following resources when building this tutorial:
@@ -92,6 +101,8 @@ They can be downloaded as a `zip` folder in this GitHub repo.
 
 19. Once the installation is complete, launch the program.
 
+<blockquote>Q1: Describe your experience installing DB Browser for SQLite based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?</blockquote>
+
 # Getting started with DB Browser for SQLite
 
 <p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_1.png?raw=true" /></a></p>
@@ -131,6 +142,8 @@ They can be downloaded as a `zip` folder in this GitHub repo.
 <p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_4.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_4.png?raw=true" /></a></p>
 
 32. Click on the "Browse Data" tab to explore the data in each table (and make sure data imported correctly).
+
+<blockquote>Q2: Describe yoru experience loading `.csv` files into DB Browser based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?</blockquote>
 
 ## Setting Keys and Building Table Relationships
 
@@ -197,18 +210,16 @@ They can be downloaded as a `zip` folder in this GitHub repo.
 
 54. Save all of these changes and close the program. We will use this newly-created database in an upcoming lab.
 
+<blockquote>Q3: Describe your experience setting key fields and building table relationships to form a relational database in DB Browser, based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?</blockquote>
+
 # Project Prompts
 
 No project prompts for this lab.
 
 # Lab Notebook Questions
 
+Q1: Describe your experience installing DB Browser for SQLite based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?
 
+Q2: Describe yoru experience loading `.csv` files into DB Browser based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?
 
-
-
-Import CSV
-
-Modify table types
-
-Do we have a relational database?
+Q3: Describe your experience setting key fields and building table relationships to form a relational database in DB Browser, based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems? 
