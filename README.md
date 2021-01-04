@@ -1,4 +1,4 @@
-# Lab #5B: Getting Started With SQLite
+# Getting Started With SQLite
 
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
 This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
@@ -14,19 +14,26 @@ The author consulted the following resources when building this tutorial:
 
 # Table of Contents
 
+- [Data](#data)
+- [What is SQLite](#what-is-sqlite)
+- [Installing DB Browser for SQLite](#installing-db-browser-for-sqlite)
+- [Getting Started with DB Browser for SQLite](#getting-started-with-db-browser-for-sqlite)
+  * [Importing Tables from `.csv` Files](#importing-tables-from-csv-files)
+  * [Setting Keys and Building Table Relationships](#setting-keys-and-building-table-relationships)
+- [Project Prompts](#project-prompts)
+- [Lab Notebook Questions](#lab-notebook-questions)
+
 # Data
 
-Database_Lab_Data.xlsx
+The following data files are used in this tutorial:
+- `Database_Lab_Data.xlsx`
+- `Player_Birthplaces.csv`
+- `Team_Locations.csv`
+- `Combined_Transactions.csv`
 
-Player_Birthplaces.csv
+They can be downloaded as a `zip` folder in this GitHub repo.
 
-Team_Locations.csv
-
-Combined_Transactions.csv
-
-Zip in the GitHub
-
-Google Drive link (ND users only) https://drive.google.com/drive/folders/1uzjZt4fxTa7qmAIfeTyKNtzT94rhZrf8?usp=sharing
+[Link to access via Google Drive link (ND users only)](https://drive.google.com/drive/folders/1uzjZt4fxTa7qmAIfeTyKNtzT94rhZrf8?usp=sharing)
 
 # What is SQLite
 
@@ -87,7 +94,7 @@ Once the installation is complete, launch the program.
 
 # Getting started with DB Browser for SQLite
 
-FIGURE 1
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_1.png?raw=true" /></a></p>
 
 You should now be seeing the GUI (graphical user interface) window for the DB Browser application.
 
@@ -99,11 +106,11 @@ Save this database with a `.sql` file extension in a dedicated location on your 
 
 ## Importing tables from `.csv` files
 
-FIGURE 2
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_2.png?raw=true" /></a></p>
 
 Add each of the `.csv` files by going to "Import table from CSV" under "Import" under "Files."
 
-FIGURE 3
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_3.png?raw=true" /></a></p>
 
 Modify the table name if needed.
 
@@ -113,7 +120,7 @@ Make sure comma is set as "Field separator," double quotation is set as "Quote c
 
 Click "OK" to import the table from the `.csv` file.
 
-FIGURE 5
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_5.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_5.png?raw=true" /></a></p>
 
 Click on the "SQL Log" button on the bottom right-hand corner of the window to see the SQL commands used to import this data.
 
@@ -121,7 +128,7 @@ These SQL commands are the programmatic expression of the steps we are taking us
 
 Once we've done this for all of our `.csv` tables, our data should now be loaded into SQLite.
 
-FIGURE 4
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_4.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_4.png?raw=true" /></a></p>
 
 Click on the "Browse Data" tab to explore the data in each table (and make sure data imported correctly).
 
@@ -132,7 +139,7 @@ Now we need to set data types and identify our keys.
 
 Select the `Team_Locations` table and click on "Modify Table" icon. PC users can right-click on the selected table to see the "Modify Table" option.
 
-FIGURE 6
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_6.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_6.png?raw=true" /></a></p>
 
 Check the "Type" for each field and change as needed.
 
@@ -159,11 +166,11 @@ We'll go through a similar process for the `Combined_Transactions` table, but re
 
 Before we can set the foreign keys, we have to change a foreign key constraint within the DB Browser application.
 
-FIGURE 4
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_4.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_4.png?raw=true" /></a></p>
 
 Select the "Edit Pragmas" tab.
 
-FIGURE 7
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_7.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_7.png?raw=true" /></a></p>
 
 Uncheck the box next to "Foreign Keys."
 
@@ -171,11 +178,11 @@ Click "Save."
 
 Now we can modify the `Combined_Transactions` table and set our foreign key fields.
 
-FIGURE 8
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_8.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_8.png?raw=true" /></a></p>
 
 You will need to extend or widen the "Edit table definition" window to see the "Foreign Key" option.
 
-FIGURE 9
+<p align="center"><a href="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_9.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/sqlite-intro/blob/main/screenshots/Figure_9.png?raw=true" /></a></p>
 
 Select the first foreign key field (`id_person`) and double click the blank space under "Foreign Key."
 
@@ -190,7 +197,7 @@ Huzzah! The ERD and relational schema we built in the first part of this lab exi
 
 Save all of these changes and close the program. We will use this newly-created database in an upcoming lab.
 
-# Project Prompt
+# Project Prompts
 
 
 
@@ -205,9 +212,3 @@ Import CSV
 Modify table types
 
 Do we have a relational database?
-
-# Project Prompt
-
-
-
-# Lab Notebook Questions
