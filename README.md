@@ -218,8 +218,10 @@ No project prompts for this lab.
 
 # Lab Notebook Questions
 
+(Answer these questions in a seperate Word Document / Pages / Google Doc.)
+
 Q1: Describe your experience installing DB Browser for SQLite based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?
 
-Q2: Describe yoru experience loading `.csv` files into DB Browser based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?
+Q2: Describe your experience loading `.csv` files into DB Browser based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?
 
 Q3: Describe your experience setting key fields and building table relationships to form a relational database in DB Browser, based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems? 
