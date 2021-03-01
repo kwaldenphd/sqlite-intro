@@ -143,7 +143,7 @@ They can be downloaded as a `zip` folder in this GitHub repo.
 
 32. Click on the "Browse Data" tab to explore the data in each table (and make sure data imported correctly).
 
-<blockquote>Q2: Describe yoru experience loading `.csv` files into DB Browser based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?</blockquote>
+<blockquote>Q2: Describe your experience loading `.csv` files into DB Browser based on the provided instructions and available documentation. What challenges did you encounter, and how did you solve those problems?</blockquote>
 
 ## Setting Keys and Building Table Relationships
 
